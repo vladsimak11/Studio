@@ -97,6 +97,12 @@ ul li {
   overflow: hidden;
 }
 
+@media screen and (max-width: 479px) {
+  .phone-hidden {
+    display: none;
+  }
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -1153,6 +1159,11 @@ img {
 @media screen and (min-width: 1200px) {
   .modal-title {
     line-height: 1.15;
+  }
+}
+@media screen and (max-width: 479px) {
+  .modal-title {
+    margin-top: 20px;
   }
 }
 

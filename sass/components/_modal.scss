@@ -59,6 +59,10 @@
     @media screen and (min-width: $desktop) {
       line-height: calc(23 / 20);
     }
+
+    @media screen and (max-width: 479px) {
+      margin-top: 20px;
+    }
   }
 }
 
